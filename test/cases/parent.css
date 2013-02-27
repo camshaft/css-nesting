@@ -1,0 +1,25 @@
+
+ul {
+  li {
+    background: #eee;
+
+    &:hover {
+      background: white;
+    }
+
+    &:active {
+      background: #ddd;
+    }
+  }
+}
+  
+
+ul {
+  &:hover {
+    li {
+      a {
+        color: blue;
+      }
+    }
+  }
+}
